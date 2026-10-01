@@ -355,27 +355,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <div class="wrap">
       <div class="sec-head center rv">
         <span class="eyebrow" data-en="Reviews" data-es="Opiniones" data-zh="患者評價">Opiniones</span>
-        <h2 data-en="5.0 out of 5 — according to 135 patients" data-es="5,0 de 5 — lo dicen 135 pacientes" data-zh="5.0 滿分 — 135 位患者的真實反饋">5,0 de 5 — lo dicen 135 pacientes</h2>
+        <h2 data-en="What our patients say" data-es="Lo que dicen nuestros pacientes" data-zh="患者怎麼說">Lo que dicen nuestros pacientes</h2>
       </div>
-      <div class="rev-grid">
-        <div class="rev rv">
-          <div class="stars">★★★★★</div>
-          <p data-en="From the moment you walk in you're welcomed warmly. Everything was clearly explained and I felt in good hands the whole time." data-es="Desde que entras por la puerta te reciben con calidez. Me explicaron todo de forma clara y me sentí en buenas manos en todo momento." data-zh="一進門就感受到溫暖的接待。醫生把治療方案解釋得清清楚楚,全程都讓我很安心。">Desde que entras por la puerta te reciben con calidez. Me explicaron todo de forma clara y me sentí en buenas manos en todo momento.</p>
-          <div class="who"><span class="avatar">M</span><span data-en="Patient · Google" data-es="Paciente · Google" data-zh="患者 · Google">Paciente · Google</span></div>
-        </div>
-        <div class="rev rv">
-          <div class="stars">★★★★★</div>
-          <p data-en="Thank you, Dr. Wu, for your patience and kindness with children. An excellent professional: friendly, approachable and impeccably skilled." data-es="Gracias, Dr. Wu, por su paciencia y cariño con los niños. Un excelente profesional: amable, cercano y con una técnica impecable." data-zh="謝謝吳醫生的細心和耐心講解。您對小朋友特別有愛心,專業技術一流,人也溫柔友善。">Gracias, Dr. Wu, por su paciencia y cariño con los niños. Un excelente profesional: amable, cercano y con una técnica impecable.</p>
-          <div class="who"><span class="avatar">L</span><span data-en="Patient · Google" data-es="Paciente · Google" data-zh="患者 · Google">Paciente · Google</span></div>
-        </div>
-        <div class="rev rv">
-          <div class="stars">★★★★★</div>
-          <p data-en="I came years ago for fillings and I'm back: accurate diagnosis, fair prices and first-class care. I'll always return." data-es="Vine hace años por unos empastes y he vuelto: diagnóstico acertado, precios razonables y un trato de diez. Volveré siempre." data-zh="幾年前來補過牙,這次又回來了:診斷準確、價格合理、服務一流。以後有需要一定還來。">Vine hace años por unos empastes y he vuelto: diagnóstico acertado, precios razonables y un trato de diez. Volveré siempre.</p>
-          <div class="who"><span class="avatar">C</span><span data-en="Patient · Google" data-es="Paciente · Google" data-zh="患者 · Google">Paciente · Google</span></div>
-        </div>
-      </div>
-      <div class="rev-cta rv">
-        <a class="btn btn-line" href="https://maps.app.goo.gl/k5jdbZQghzwutf8Y8" target="_blank" rel="noopener" data-en="See all reviews on Google ↗" data-es="Ver todas las opiniones en Google ↗" data-zh="在 Google 查看全部評價 ↗">Ver todas las opiniones en Google ↗</a>
+      <div class="rv">
+        <!-- Elfsight Google Reviews | Onix Dental (auto-updates from Google) -->
+        <div class="elfsight-app-1a945598-4116-4f5f-a95c-3f792676a170" data-elfsight-app-lazy></div>
       </div>
     </div>
   </section>
@@ -443,5 +427,8 @@ const io = new IntersectionObserver(es=>{
 },{threshold:.12});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 </script>
+
+<!-- Elfsight Google Reviews | Onix Dental -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
 </body>
 </html>
