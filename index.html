@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -203,8 +203,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     </nav>
     <div class="nav-right">
       <div class="lang" role="group" aria-label="Language">
-        <button id="btn-en" class="on" onclick="setLang('en')">EN</button>
-        <button id="btn-es" onclick="setLang('es')">ES</button>
+        <button id="btn-en" onclick="setLang('en')">EN</button>
+        <button id="btn-es" class="on" onclick="setLang('es')">ES</button>
         <button id="btn-zh" onclick="setLang('zh')">中文</button>
       </div>
       <a class="btn btn-terra" href="https://wa.me/34674216625" data-en="Book a visit" data-es="Pedir cita" data-zh="預約就診">Pedir cita</a>
@@ -437,7 +437,7 @@ function setLang(l){
     }
   });
 }
-setLang('en');
+setLang('es');
 const io = new IntersectionObserver(es=>{
   es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
 },{threshold:.12});
